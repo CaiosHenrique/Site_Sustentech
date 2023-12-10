@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
@@ -18,12 +22,22 @@ header {
   padding-right: 80px;
   padding-top: 24px;
   padding-bottom: 24px;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  /* opacity: 0.1; */
+}
+
+/* Classe para o cabeçalho quando a página é rolada */
+.header.scrolled {
+  background-color: white;
 }
 header nav a {
-  color: white;
+  color: black;
   font-weight: 600;
   padding: 32px;
   text-decoration: none;
+  opacity: 10;
 }
 #header
 {
