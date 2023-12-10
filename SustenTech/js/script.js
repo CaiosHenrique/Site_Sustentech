@@ -13,12 +13,16 @@ var Botao = document.querySelector('.botao');
 
 Botao.addEventListener('mouseover', function() 
 {
-    this.style.backgroundColor = "red";
+    this.style.backgroundColor = "transparent";
+    this.style.border = "2px solid #009989";
+    this.style.color = "#009989";
 });
 
 Botao.addEventListener('mouseout', function() 
 {
     this.style.backgroundColor = "#009989";
+    this.style.border = "none";
+    this.style.color = "#fff";
 });
 
 // var Header = document.querySelector('.header');

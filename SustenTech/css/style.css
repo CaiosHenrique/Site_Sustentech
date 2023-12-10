@@ -1,5 +1,32 @@
 html {
   scroll-behavior: smooth;
+  border-left: #009989 5px solid;
+  border-right: #009989 5px solid;
+  border-bottom: #009989 5px solid;
+}
+
+.svgshapeinverted
+{
+  transform: rotate(180deg);
+  transform: scaleY(-1);
+  position: relative;
+  top: -2px;
+}
+
+.LogoSusten
+{
+  width: 140px;
+  position: relative;
+  top: -2px;
+}
+
+.svgshape
+{
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: calc(100vw - 25px);
+ 
 }
 
 * {
@@ -32,21 +59,24 @@ header {
 .header.scrolled {
   background-color: white;
 }
+
 header nav a {
-  color: black;
+  color: white;
   font-weight: 600;
   padding: 32px;
   text-decoration: none;
-  opacity: 10;
+  opacity: 1;
 }
 #header
 {
   width: 92;
-  height: 21;
+  height: 75px;
 }
 
 
 #inicio {
+  position: relative;
+  top: 75px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,9 +220,14 @@ footer {
   justify-content: space-between;
   gap: 80px;
   padding: 64px 80px;
+  align-items: center;
 }
 
-footer .img,
+.ImageFooter
+{
+  height: 60px;
+}
+
 footer .texto {
   display: block;
   font-weight: 600;
