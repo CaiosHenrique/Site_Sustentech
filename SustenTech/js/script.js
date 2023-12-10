@@ -40,17 +40,17 @@ BotaoTransparente.addEventListener('mouseout', function()
     this.style.color = "#009989";
 });
 
-var ItensNavbar = document.querySelectorAll('.navheader');
+// var ItensNavbar = document.querySelectorAll('#inicio, #sobre, #como, #duvidas');
 
-ItensNavbar.addEventListener('mouseover', function()
-{
-    this.style.color = "#26313b";
-});
+// ItensNavbar.addEventListener('mouseover', function()
+// {
+//     this.style.color = "#26313b";
+// });
 
-ItensNavbar.addEventListener('mouseout', function()
-{
-    this.style.color = "#fff";
-});
+// ItensNavbar.addEventListener('mouseout', function()
+// {
+//     this.style.color = "#fff";
+// });
 
 // var Header = document.querySelector('.header');
 
