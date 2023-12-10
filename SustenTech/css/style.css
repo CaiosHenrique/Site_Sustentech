@@ -55,9 +55,18 @@ header {
   /* opacity: 0.1; */
 }
 
-/* Classe para o cabeçalho quando a página é rolada */
+/* Classe para o cabeçalho quando a página é rolada
 .header.scrolled {
   background-color: white;
+} */
+
+.navheader
+{
+  color: white;
+  font-weight: 600;
+  padding: 32px;
+  text-decoration: none;
+  opacity: 1;
 }
 
 header nav a {
@@ -121,6 +130,8 @@ h2 {
   color: #009989;
   padding: 16px 32px;
   text-underline-offset: 4px;
+  text-decoration: none;
+  border-radius: 8px;
 }
 
 .absolute {
@@ -228,11 +239,6 @@ footer {
   height: 60px;
 }
 
-footer .texto {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 24px;
-}
 footer nav a {
   color: #26313b;
   display: block;
@@ -259,4 +265,9 @@ footer p a {
 
 #copyright a {
   color: #009989;
+}
+
+.LinksInfo
+{
+  position: center;
 }

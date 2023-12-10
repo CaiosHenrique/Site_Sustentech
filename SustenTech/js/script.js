@@ -25,6 +25,33 @@ Botao.addEventListener('mouseout', function()
     this.style.color = "#fff";
 });
 
+var BotaoTransparente = document.querySelector('.botao-transparente');
+
+BotaoTransparente.addEventListener('mouseover', function() 
+{
+    this.style.backgroundColor = "#009989";
+    this.style.border = "none";
+    this.style.color = "#fff";
+});
+
+BotaoTransparente.addEventListener('mouseout', function()
+{
+    this.style.backgroundColor = "transparent";
+    this.style.color = "#009989";
+});
+
+var ItensNavbar = document.querySelectorAll('.navheader');
+
+ItensNavbar.addEventListener('mouseover', function()
+{
+    this.style.color = "#26313b";
+});
+
+ItensNavbar.addEventListener('mouseout', function()
+{
+    this.style.color = "#fff";
+});
+
 // var Header = document.querySelector('.header');
 
 // window.addEventListener('scroll', function() {
